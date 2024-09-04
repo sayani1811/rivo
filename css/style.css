@@ -1046,7 +1046,7 @@ line-height: 61.35px;
     .discover h4{
         font-size: 32px;
         line-height: 42px;
-        width: 266px;
+        width: auto;
     }
     .discover-para{
         width: auto;
@@ -1083,6 +1083,7 @@ line-height: 61.35px;
     .containar{
         width: auto;
         flex-direction: column;
+        padding: 0 25px;
     }
     .m-box{
         width: auto;
@@ -1141,6 +1142,7 @@ line-height: 61.35px;
     .containar1{
         width: auto;
         flex-direction: column;
+        padding: 0 25px;
     }
     .model-wrapper{
         width: auto;
@@ -1186,6 +1188,7 @@ line-height: 61.35px;
         width: auto;
         flex-direction: column;
         margin: 30px auto;
+        padding: 0 25px;
     }
     .model5-text5{
         font-size: 11px;   
