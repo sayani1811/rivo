@@ -850,7 +850,7 @@ padding-top: 249px;
     font-size: 22px;
     font-weight: 600;
     line-height: 25px;
-    text-align: left;
+    /* text-align: left; */
     
 }
 .box5 p{
@@ -858,7 +858,7 @@ padding-top: 249px;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
-    text-align: left;
+    /* text-align: left; */
     
     padding-top: 30px;
 }
@@ -881,7 +881,7 @@ padding-top: 249px;
     font-size: 22px;
     font-weight: 600;
     line-height: 25px;
-    text-align: left;
+    /* text-align: left; */
     padding-left: 19px;
 }
 .box6 p{
@@ -889,7 +889,7 @@ padding-top: 249px;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
-    text-align: left;
+    /* text-align: left; */
     padding-left: 19px;
     padding-top: 30px
 }
@@ -909,7 +909,7 @@ padding-top: 249px;
     font-size: 22px;
     font-weight: 600;
     line-height: 25px;
-    text-align: left;
+    /* text-align: left; */
    
 }
 .box7 p{
@@ -917,7 +917,7 @@ padding-top: 249px;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
-    text-align: left;
+    /* text-align: left; */
     padding-top: 30px
 }
 
@@ -1240,6 +1240,7 @@ line-height: 61.35px;
         width: auto;
         flex-direction: column;
         margin: 35px auto;
+        padding: 0 25px;
     }
     .bbtext h1{
         padding-top: 15px;
@@ -1264,10 +1265,17 @@ line-height: 61.35px;
         margin-top: 20px;
         padding: 10px 30px;
     }
+    .box3 p{
+        width: auto;
+        font-size: 18px;
+        line-height: 25px;
+    }
     .containar4{
         flex-direction: column;
         margin-top: 25px;
         margin-bottom: 0;
+        width: auto;
+        text-align: center;
     }
 
     .design h1{
@@ -1280,58 +1288,78 @@ line-height: 61.35px;
     .feed h1{
         padding-top: 0;
     }
-    .box5 p {
-        font-size: 12px;
+    .box5{
+        width: auto;
     }
+    .box5 p {
+        font-size: 14px;
+        
+    }
+
    
     .box6{
         margin-top: 45px;
+        width: auto;
     }
     .box6 p{
-        font-size: 12px; 
+        font-size: 14px; 
     }
    
     .box7{
-        margin-top: 45px;  
+        margin-top: 45px; 
+        width: auto; 
     }
     .box7 p{
-        font-size: 12px; 
+        font-size: 14px; 
     }
-footer{
-    width: auto;
-    padding: 88px 95px;
-}
-.footer-up-sec{
-    flex-direction: column;
-   
-}
-.foot-products .products {
-    font-size: 20px;
-    font-weight: 600;
-    margin-top: 30px;
-}
-.foot-resources .resources{
-    font-size: 20px;
-    font-weight: 600;
-    margin-top: 30px;
-}
-.foot-company .company {
-    font-size: 20px;
-    font-weight: 600;
-    margin-top: 30px;
-}
-.mail input {
-    font-size: 15px;
-    padding: 5px 5px;
-}
-.mail button{
-    padding: 5px 5px;
-    font-size: 10px;
-    color: #224F34;
-   
-}
-.foot-lower-sec{
-    flex-direction: column;
-}
+    footer{
+        width: auto;
+        padding: 20px 25px;
+        text-align: center;
+        margin-top: 25px;
+    }
+    .footer-sec-inner{
+        width: auto;
+    }
+    .footer-up-sec{
+        flex-direction: column;
+        margin-bottom: 60px;
+    
+    }
+    .foot-products .products {
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 30px;
+    }
+    .foot-resources .resources{
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 30px;
+    }
+    .foot-company .company {
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 30px;
+    }
+    .mail input {
+        font-size: 15px;
+        padding: 5px 5px;
+    }
+    .mail button{
+        padding: 5px 5px;
+        font-size: 10px;
+        color: #224F34;
+    
+    }
+    .foot-lower-sec{
+        flex-direction: column;
+    }
+
+    .foot-line{
+        width: 270px;
+    }
+    .foot-lower-sec p {
+        margin-top: 10px;
+    }
 }
     
